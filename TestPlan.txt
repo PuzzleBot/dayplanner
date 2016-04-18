@@ -1,0 +1,84 @@
+***************************
+CIS 2430: Assignment 3
+Brandon Tan
+0845538
+November 28, 2014
+Test Plan/results
+***************************
+
+*******************************
+Program opening/closing test
+*******************************
+
+Window opens with the intended welcome prompt:                         PASS
+
+“Save before exiting?” window appears upon clicking red X:             PASS
+- File is written after clicking YES, and program is closed:           PASS
+- File not written after clicking NO, and program is closed:           PASS
+- Window closes and main window is still open after clicking CANCEL:   PASS
+- Window closes and main window is still open after clicking red X:    PASS
+	
+
+“Are you sure?” window appears upon clicking option “Save and exit”:   PASS
+- File is written after clicking YES, and program is closed:           PASS
+- Window closes and main window is still open after clicking CANCEL:   PASS
+- Window closes and main window is still open after clicking red X:    PASS
+
+
+*********************
+Add activity test
+*********************
+
+After filling fields and clicking enter, confirmation prompt appears in the message box:        PASS
+After writing all activities to the file, activity appears in the file in the correct format:   PASS
+Clicking reset deletes all text fields:                                                         PASS
+
+Location field is hidden unless “Other Activity” is selected:                                   PASS
+
+Error testing (Exception handling)
+	- Denies activity with an empty title:                   PASS
+		- Prompt window is shown with correct message:   PASS
+	- Denies activity with start time coming after end time: PASS
+		- Prompt window is shown with correct message:   PASS
+
+	- Denies activity with an invalid year:                  PASS
+		- Prompt window is shown with correct message:   PASS
+	- Denies activity with an invalid month:                 PASS
+		- Prompt window is shown with correct message:   PASS
+	- Denies activity with an invalid day:                   PASS
+		- Prompt window is shown with correct message:   PASS
+	- Denies activity with an invalid hour:                  PASS
+		- Prompt window is shown with correct message:   PASS
+	- Denies activity with an invalid minute:                PASS
+		- Prompt window is shown with correct message:   PASS
+
+
+*********************
+Search activity test
+*********************
+
+After filling fields and clicking enter, search results appear in the message box:              PASS
+Clicking reset deletes all text fields:                                                         PASS
+
+Error testing (Exception handling)
+	- Does not deny search with an empty title:                   PASS
+	- Does not deny search with start time coming after end time: PASS
+
+	- Denies activity with an invalid year:                  PASS
+		- Prompt window is shown with correct message:   PASS
+	- Denies activity with an invalid month:                 PASS
+		- Prompt window is shown with correct message:   PASS
+	- Denies activity with an invalid day:                   PASS
+		- Prompt window is shown with correct message:   PASS
+	- Denies activity with an invalid hour:                  PASS
+		- Prompt window is shown with correct message:   PASS
+	- Denies activity with an invalid minute:                PASS
+		- Prompt window is shown with correct message:   PASS
+
+
+*********************
+Error prompt windows
+*********************
+
+Clicking OK closes the window but not the program:                PASS
+Clicking the red X closes the window but not the program:         PASS

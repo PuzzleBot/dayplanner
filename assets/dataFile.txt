@@ -1,0 +1,45 @@
+type = home
+title = Play a game 
+start = 2014, 11, 8, 18, 0
+end = 2014, 11, 9, 2, 0
+comment = Hearthstone 
+/
+type = school
+title = Java lab 
+start = 2016, 3, 20, 10, 15
+end = 2018, 4, 1, 23, 30
+comment = Card game 
+/
+type = other
+title = Eat a snack 
+start = 2017, 8, 14, 14, 45
+end = 2018, 8, 14, 14, 55
+comment = Ice Cream 
+location = Menchies 
+/
+type = school
+title = Java Midterm 
+start = 2004, 10, 22, 15, 50
+end = 2004, 10, 25, 14, 30
+comment = CIS 2520 
+/
+type = other
+title = Look for keys 
+start = 2010, 1, 1, 10, 0
+end = 2020, 12, 25, 20, 0
+comment = Panic mode activated 
+location = Everywhere
+/
+type = home
+title = Eat dinner 
+start = 2000, 8, 1, 2, 0
+end = 3000, 4, 1, 2, 0
+comment = ZZZZZ 
+/
+type = other
+title = Play Pokemon
+start = 2014, 11, 21, 11, 30
+end = 2014, 12, 27, 22, 0
+comment = Alpha Sapphire
+location = EGO club room
+/

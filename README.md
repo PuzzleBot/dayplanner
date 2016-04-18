@@ -5,7 +5,9 @@
 ********************************************************
 
 This program is the result of three assignments completed for the object-oriented
-programming course at the University of Guelph.
+programming course at the University of Guelph. Since we were not given a method
+of version control, or allowed to post our code online publicly until the end of
+the course, only the end result is present without the previous iterations.
 
 
 # The goal of this project
