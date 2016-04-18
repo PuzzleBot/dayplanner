@@ -136,7 +136,8 @@ Option 2: Terminal
 	  and type in “java dayplanner/DayPlanner” without quotes, followed by
 	  one to two file paths to the input/output files as arguments.
 		- If there is one argument, it will be treated as both an input/output 
-		file. If there are two, the first will be the input file, and the second 		will be the output. The paths should be with respect to the directory
+		file. If there are two, the first will be the input file, and the second
+ 		will be the output. The paths should be with respect to the directory
 		the program is being run from.
 
         - Use the “Commands” menu at the top of the GUI to choose to Add or Search
